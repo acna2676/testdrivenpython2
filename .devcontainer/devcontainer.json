@@ -1,0 +1,13 @@
+{
+  "name": "TestDrivenPython2",
+  // Dockerfileでイメージ・コンテナを作成
+  "dockerFile": "Dockerfile",
+  // "workspaceFolder": "/home/pacc", // Workspaceのフォルダを指定
+  // リモート先のVS Codeにインストールする拡張機能
+  "extensions": ["ms-python.python"]
+  // "containerEnv": {
+  //   "AWS_ACCESS_KEY_ID": "${localEnv:AWS_ACCESS_KEY_ID}",
+  //   "AWS_SECRET_ACCESS_KEY": "${localEnv:AWS_SECRET_ACCESS_KEY}",
+  //   "AWS_DEFAULT_REGION": "${localEnv:AWS_DEFAULT_REGION}"
+  // }
+}
